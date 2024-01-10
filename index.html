@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blanc Bookstore</title>
+    <link rel="icon" href="images/BlANC.png">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="page-title">
+        <a href="#"
+          ><img class="page-logo" src="images/BlANC.png" alt="Blanc logo"
+        /></a>
+      </div>
+      <ul class="nav-menu">
+        <div class="book-dropdown">
+        <li id="books">
+          <a class="nav-links" href="#"
+            >Books <i class="fa-solid fa-chevron-down"></i
+          ></a>
+          <div class="dropdown-content">
+            <a href="#">Fiction <span><i class="fa-solid fa-atom"></i></i></span></a>
+            <a href="#">Non-Fiction <span><i class="fa-solid fa-leaf"></i></span></a>
+            <a href="#">Fantasy <span><i class="fa-solid fa-dragon"></i></span></a>
+            <a href="#">Crime <span><i class="fa-solid fa-user-secret"></i></span></a>
+            <a href="#">Graphic Novels <span><i class="fa-solid fa-paintbrush"></i></span></a>
+            <a href="#">Children's <span><i class="fa-solid fa-child-reaching"></i></span></a>
+          </div>
+        </li>
+      </div>
+        <li><a class="nav-links" href="#">Sell your books</a></li>
+        <li><a class="nav-links" href="#">Stationary</a></li>
+        <li><a class="nav-links" href="#">Help</a></li>
+        <a id="nav-login_btn" href="#"><i class="fa-regular fa-user"></i></a>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </nav>
+
+    <div class="page-info">
+      <ul class="pages">
+        <li><a href="#">Home</a> /</li>
+        <li><a href="#">Search</a> /</li>
+        <li>Details</li>
+      </ul>
+    </div>
+
+    <div class="main-body_container">
+      <section class="product-details">
+        <div class="product-image">
+          <img
+            src="images/71zaKxkblSL._AC_UF1000,1000_QL80_.jpg"
+            alt="Gardens of the moon cover"
+          />
+        </div>
+        <div class="product-name">
+          <h2>Malazan book of the fallen: Gardens of the moon</h2>
+          <p>Author: Steven Erikson</p>
+        </div>
+
+        <div class="product-synopsis">
+          <h2>What's it about?</h2>
+          <div class="story-description">
+            <p>
+              Bled dry by interminable warfare, infighting and bloody
+              confrontations with Lord Anomander Rake and his Tiste Andii, the
+              vast, sprawling Malazan empire simmers with discontent. Even its
+              imperial legions yearn for some respite. For Sergeant Whiskeyjack
+              and his Bridgeburners and for Tattersail, sole surviving sorceress
+              of the Second Legion, the aftermath of the siege of Pale should
+              have been a time to mourn the dead. But Darujhistan, last of the
+              Free Cities of Genabackis, still holds out - and Empress Lasseen's
+              ambition knows no bounds. However, it seems the empire is not
+              alone in this great game. Sinister forces gather as the gods
+              themselves prepare to play their hand...
+            </p>
+          </div>
+          <div class="book-description">
+            <p>
+              Conceived and written on an epic scale, Gardens of the Moon is a
+              breathtaking achievement - a novel in which grand design, a dark
+              and complex mythology, wild and wayward magic and a host of
+              enduring characters combine with thrilling, powerful storytelling
+              to resounding effect. Acclaimed by writers, critics and readers
+              alike, here is the opening chapter in what has been hailed a
+              landmark of epic fantasy: the awesome 'The Malazan Book of the
+              Fallen'.
+            </p>
+          </div>
+          <p class="book-info">
+            Publisher: Transworld Publishers Ltd ISBN: 9780553819571 Number of
+            pages: 768 Weight: 407 g Dimensions: 178 x 106 x 38 mm
+          </p>
+        </div>
+      </section>
+
+      <section class="payment-details">
+        <div class="product-price">
+          <div class="stock">
+            <p>Paperback</p>
+            <div class="stock-availability">
+              <i class="fa-solid fa-check"></i>
+              <h4>In stock</h4>
+            </div>
+          </div>
+          <h3>£8.99</h3>
+        </div>
+        <div class="buy-section">
+          <div class="quantity">
+            <h5>Quantity</h5>
+            <input type="number" min="1" max="10" step="1" value="1" />
+          </div>
+          <button id="basket-btn">
+            Add to Basket <i class="fa-solid fa-basket-shopping"></i>
+          </button>
+        </div>
+        <div class="review">
+          <div class="review-score">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <p>(23 Reviews)</p>
+          </div>
+          <a href="#">Leave a review</a>
+        </div>
+
+        <div id="added">
+          <p>Added to Basket <i class="fa-solid fa-check"></i></p>
+        </div>
+      </section>
+    </div>
+    
+
+    <div class="more-items">
+      <h2>You may also like...</h2>
+      <div class="more-items_selection">
+        <button class="arrows"><i class="fa-solid fa-chevron-left"></i></button>
+        <ul class="more-items_links">
+          <li>
+            <img
+              class="more-items_image"
+              src="images/the-eye-of-the-world.jpg"
+              alt="eye of the world book"
+            />
+            <h4>The Eye of the World</h4>
+            <p>£7.99</p>
+          </li>
+          <li>
+            <img
+              class="more-items_image"
+              src="images/9780007876440.HC.0.m.jpg"
+              alt="A game of thrones"
+            />
+            <h4>A Game of Thrones</h4>
+            <p>£7.99</p>
+          </li>
+          <li>
+            <img
+              class="more-items_image"
+              src="images/9780340960196.webp"
+              alt="Dune"
+            />
+            <h4>Dune</h4>
+            <p>£9.99</p>
+          </li>
+          <li>
+            <img
+              class="more-items_image"
+              src="images/9781473231061.jpg"
+              alt="The Last Wish"
+            />
+            <h4>The Last Wish</h4>
+            <p>£9.99</p>
+          </li>
+          <li>
+            <img
+              class="more-items_image"
+              src="images/9780007523221.webp"
+              alt="The Silmarillion"
+            />
+            <h4>The Silmarillion</h4>
+            <p>£9.99</p>
+          </li>
+        </ul>
+        <button class="arrows">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="footer-links_section">
+        <div class="links-column">
+          <h3 class="link-title">What are you looking for?</h3>
+          <ul class="footer-links">
+            <li>Books</li>
+            <li>Sell your books</li>
+            <li>Stationary</li>
+            <li>Genres</li>
+            <li>Your account</li>
+            <li>Returns</li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h3 class="link-title">About Blanc</h3>
+          <ul class="footer-links">
+            <li>About us</li>
+            <li>Careers</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h3 class="link-title">Other useful stuff</h3>
+          <ul class="footer-links">
+            <li>Privacy Notice</li>
+            <li>Terms & Conditions</li>
+            <li>Cookie Policy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="copyright">&copy; All rights reserved. 2023</div>
+    </footer>
+  </body>
+</html>
